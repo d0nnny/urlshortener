@@ -17,7 +17,7 @@ class Link(db.Model):
 
     def generate_short_link(self):
         characters = string.digits + string.ascii_letters
-        short_url = ''.join(choices(characters, k=4))
+        short_url = ''.join(choices(characters, k=4)) # K length 
 
         link = self.query.filter_by(short_url=short_url).first()
 
