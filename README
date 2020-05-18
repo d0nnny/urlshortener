@@ -178,4 +178,32 @@ modfied render_template
 ## break to get into GIT ##
 
 
+## back to starter mode..
+
+@ 36:49
+create the process for using 
+
+switch branches
+
+
+create auth.py
+import auth into routes
+
+@39:52
+routes.py -->
+	from .auth import requires_auth
+
+	works!!
+
+	
+Making stats page prettier 
+
+	copying starter template from bulma !!
+
+https://bulma.io/documentation/elements/table/
+
+update stats
+update add_link
+update index.html (s.html)
+
 
